@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Enrty point
+ * main - Entry function
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
-	char lc;
+	char i;
 
-	for (lc = 'a'; lc <= "z"; lc++)
-	{
-		putchar(lc);
-	}
+	for (i = 'a' ; i <= "z"; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
