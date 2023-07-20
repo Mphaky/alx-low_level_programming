@@ -2,7 +2,7 @@
 
 /**
  * main - print the number from 1 to 100 followed by a new line
- * but for multiples of three print fizz instead of the number 
+ * but for multiples of three print fizz instead of the number
  * and for the multiples of five print Buzz
  * Return: always 0
  */
@@ -12,10 +12,10 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 00 && i % 5 ! = 0)
+		if (i % 3 == 00 && i % 5 != 0)
 		{
 			printf("Fizz");
-		} else if (i % 5 == 0 && i % 3 ! = 0)
+		} else if (i % 5 == 0 && i % 3 != 0)
 		{
 			printf("Buzz");
 		} else if (i % 3 == 0 && i % 5 == 0)
@@ -24,7 +24,7 @@ int main(void)
 		} else if (i == 1)
 		{
 			printf("%d", i);
-		} else 
+		} else
 		{
 			printf("%d", i);
 		}
